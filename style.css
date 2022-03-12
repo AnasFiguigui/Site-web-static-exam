@@ -1,0 +1,96 @@
+.Riotlogo {
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+.Riotlogo .bas {
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  .Riotlogo:hover .haut {
+    display: none;
+  }
+  
+  .Riotlogo:hover .bas {
+    display: inline;
+  }
+
+  body {
+    background-image: url("sources/photo/Background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 60px;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link {
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+
+.imglink-col{
+  border-radius: 10px;
+  overflow: hidden;
+ 
+}
+.imglink-col img{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Hover League of legends*/
+
+.league{
+  border-radius: 10px;
+}
+
+.league:hover{
+  background: #1ba4bc;
+  background-image: url("sources/logo/minilol.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+}
+.imglink-col img:hover{
+  opacity: 0.3;
+  transition: 0.6s;
+}
+
+/* Hover Runeterra */
+.runeterra{
+  border-radius: 10px;
+}
+
+.runeterra:hover{
+  background: #ce9751;
+  background-image: url("sources/logo/minirune.png" );
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+}
+
+/* Hover Valorant */
+.valorant{
+  border-radius: 10px;
+}
+
+.valorant:hover{
+  background: #ff4655;
+  background-image: url("sources/logo/minivalo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+}

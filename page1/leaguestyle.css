@@ -1,0 +1,45 @@
+.Riotlogo {
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+.Riotlogo .bas {
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  .Riotlogo:hover .haut {
+    display: none;
+  }
+  
+  .Riotlogo:hover .bas {
+    display: inline;
+  }
+
+a:link {
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+  font-weight: bold;
+}
+#mybackvideo {
+
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+.minibg{
+  margin-top: -7px;
+  background: url(../sources/logo/minibg.png) left top repeat-x rgb(247, 247, 247);
+}
+
+.logo {
+  position: relative;
+  top: -500px;
+}
