@@ -1,0 +1,134 @@
+.Riotlogo {
+    margin-top: 2px;
+    box-sizing: border-box;
+}
+.Riotlogo .bas {
+    display: none;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  .Riotlogo:hover .haut {
+    display: none;
+  }
+  
+  .Riotlogo:hover .bas {
+    display: inline;
+  }
+
+a:link {
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:visited {
+  color: white;
+  font-size: medium;
+  text-decoration: none;
+  font-weight: bold;
+}
+#mybackvideo {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+}
+.minibg{
+  margin-top: -7px;
+  background: url(../img/logo/minibg.png) left top repeat-x rgb(247, 247, 247);
+}
+
+.logo {
+    padding-bottom: 105px;
+  position: absolute;
+}
+
+
+
+/*cartes representative des roles dans le jeu */
+.card{
+  top: -200px;
+  height: 420px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.60) 0px 6px 12px;
+} 
+
+#caractere1{
+  background:url(../img/photo/omen.jpg) center / cover;
+}
+#caractere2{
+  background:url(../img/photo/jett.jpeg) center / cover;
+}
+#caractere3{
+  background:url(../img/photo/sage.png) center / cover;
+}
+.overlay{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+  transition: .7s;
+  opacity: 0;
+}
+.content{
+  bottom: 0;
+  width: 100%;
+  height: 170px;
+  display: flex;
+  padding: 0 10px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.name{
+  position: relative;
+  padding: 3px 0;
+}
+.name::after{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: .4s;
+  transition-delay: .5s;
+}
+
+.content{
+  font-size: 13px;
+}
+.content a{
+  display: block;
+  height: 50px;
+  width: 275px;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  border:2px solid #fff;
+
+}
+.card:hover .overlay{
+  opacity:1;
+}
+.card:hover .name::after{
+  width: 100%;
+}
+
+.title{
+  position: relative;
+  top: -550px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.pp{
+  margin: 20px;
+  position: relative;
+  top: -550px;
+  text-align: center;
+  font-size: 20px;
+}
