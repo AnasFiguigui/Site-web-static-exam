@@ -40,8 +40,14 @@ a:visited {
 }
 
 .logo {
-    padding-bottom: 7.5rem;
+    padding-bottom: 12rem;
     position: absolute;
+}
+@media only screen and (max-width: 660px) {
+  .logo {
+    padding-bottom: 7.5rem;
+
+  }
 }
 
 

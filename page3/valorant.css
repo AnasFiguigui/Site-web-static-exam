@@ -1,3 +1,6 @@
+body{
+  background-color: #ff4655;
+}
 .Riotlogo {
     margin-top: 2px;
     box-sizing: border-box;
@@ -42,6 +45,11 @@ a:visited {
 .logo {
     padding-bottom: 105px;
   position: absolute;
+}
+@media only screen and (max-width: 600px) {
+  .logo {
+    padding-bottom: 4.2rem;
+  }
 }
 
 
@@ -125,10 +133,10 @@ a:visited {
   font-size: 40px;
   text-align: center;
 }
-.pp{
+p {
   margin: 20px;
+  font-family: url(../img/font/Tungsten-Black.otf);
   position: relative;
-  top: -550px;
   text-align: center;
   font-size: 20px;
 }
