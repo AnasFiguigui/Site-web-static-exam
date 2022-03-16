@@ -1,3 +1,7 @@
+body{
+  background-color: #F7F7F7;
+}
+
 .Riotlogo {
     margin-top: 2px;
     box-sizing: border-box;
@@ -119,8 +123,8 @@ a:visited {
 
 .title{
   position: relative;
-  top: -550px;
-  color: #000000;
+  color: #DBC174;
+  top: -150px;
   font-weight: bold;
   font-size: 40px;
   text-align: center;
@@ -128,7 +132,11 @@ a:visited {
 .pp{
   margin: 20px;
   position: relative;
-  top: -550px;
+  top: -150px;
   text-align: center;
   font-size: 20px;
+}
+.picture{
+  margin-top: -120px;
+  margin-bottom: 80px;
 }

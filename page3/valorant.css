@@ -1,5 +1,5 @@
 body{
-  background-color: #ff4655;
+  background-color: #F7F7F7;
 }
 .Riotlogo {
     margin-top: 2px;
@@ -127,16 +127,20 @@ a:visited {
 
 .title{
   position: relative;
-  top: -550px;
-  color: #000000;
+  color: #ff4655;
+  top: -150px;
   font-weight: bold;
   font-size: 40px;
   text-align: center;
 }
-p {
+.pp{
   margin: 20px;
-  font-family: url(../img/font/Tungsten-Black.otf);
   position: relative;
+  top: -150px;
   text-align: center;
   font-size: 20px;
+}
+.picture{
+  margin-top: -120px;
+  margin-bottom: 60px;
 }

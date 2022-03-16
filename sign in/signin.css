@@ -1,5 +1,5 @@
 body{
-    background-image: url("../sources/photo/riot_background4.jpg");
+    background-image: url("../img/photo/riot_background4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -30,7 +30,7 @@ body{
     top:-40px;
     width: 102%;
     height:300px;
-    background: url("../sources/photo/leblanc.jpg") center/ cover;
+    background: url("../img/photo/leblanc.jpg") center/ cover;
 }
 .container::before{
     content: "";
