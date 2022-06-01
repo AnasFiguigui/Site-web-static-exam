@@ -13,7 +13,7 @@ La <a href="index.html">page principale</a> introduit les quatres autres documen
 
 ![index](https://user-images.githubusercontent.com/92400545/171434382-d19cbe68-6ec3-45ad-bfb5-dc1dff74649e.png)
 
-Contrairement aux 3 sujets choisi la page d'<a href="sign in/Sign in.html">identification</a> ne partage pas la même structure.
+Contrairement aux 3 sujets choisis la page d'<a href="sign in/Sign in.html">identification</a> ne partage pas la même structure.
 
 ![sign in](https://user-images.githubusercontent.com/92400545/171434412-40f5758c-385e-4fdd-bc47-853bbf39d42c.png)
 
