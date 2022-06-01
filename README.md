@@ -18,4 +18,4 @@ Contrairement aux 3 sujets choisi la page d'<a href="sign in/Sign in.html">ident
 ![sign in](https://user-images.githubusercontent.com/92400545/171434412-40f5758c-385e-4fdd-bc47-853bbf39d42c.png)
 
 
-En utilisant le contenue de <a href="https://www.riotgames.com/en">Riot games</a> le projet a été créé pour but d'ameliorer mes compétences en languages <strong>HTML, CSS</strong> et même le framework <strong>Bootstrap 5.</strong>
+En utilisant le contenue de <a href="https://www.riotgames.com/en">Riot games</a> ce projet a été créé pour but d'apprendre et d'améliorer mes compétences en languages <strong>HTML, CSS</strong> et même d'organiser et gèrer la mise en page du site web grâce à <strong>Bootstrap 5.</strong>
